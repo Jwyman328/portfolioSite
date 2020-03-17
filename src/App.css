@@ -89,6 +89,15 @@ html {
     justify-content: center;
   }
 
+  .profilePic {
+    visibility: hidden;
+    flex: 0;
+    margin-right: 0px;
+    width: 0px;
+    border-radius: 0rem;
+    height: 0px;
+  }
+
 }
 
 .university {
@@ -269,11 +278,8 @@ li {
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
-
-
-
-
   }
+
   .aboutTextContainer {
     margin-left: 6vw;
     margin-right: 6vw;
