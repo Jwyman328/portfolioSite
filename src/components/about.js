@@ -1,12 +1,11 @@
 import React from "react";
-import benchPhoto from "../images/benchPhoto.png";
-import fullPro from "../images/fullProfileCrop.png";
+import smallMainPhoto from '../images/smallMainSide.png'
 
 function About(props) {
   return (
     <div className="aboutContainer">
       <div>
-        <img className="aboutPhoto" src={benchPhoto} />
+        <img className="aboutPhoto" src={smallMainPhoto} />
       </div>
       <div className="aboutTextContainer">
         <h2>Joseph Wyman</h2>
