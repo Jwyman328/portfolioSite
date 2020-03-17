@@ -12,7 +12,7 @@ function HeaderElement(props) {
       duration={50}
      
     >
-      <div className="headerElement">{props.name}</div>
+      <div className={props.className}>{props.name}</div>
     </Link>
   );
 }

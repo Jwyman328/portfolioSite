@@ -1,0 +1,33 @@
+.headerContainer {
+    background-color: #1cb0ff;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .8;
+    width: 100vw;
+  }
+
+  .headerElement {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+.headerElement:hover {
+    position: relative;
+    top: -5px;
+  }
+  
+
+  @media (max-width: 584px){
+
+
+  
+
+  }

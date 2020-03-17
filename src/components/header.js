@@ -8,10 +8,10 @@ function Header(){
             <div >
                 <img src={profilePic} className='profilePic' />
             </div>
-            <HeaderElement name ='About'/>
-            <HeaderElement name ='Projects'/>
-            <HeaderElement name ='Skills'/>
-            <HeaderElement name ='Contact'/>
+            <HeaderElement className='headerElement' name ='About'/>
+            <HeaderElement className='headerElement' name ='Projects'/>
+            <HeaderElement className='headerElement' name ='Skills'/>
+            <HeaderElement className='headerElement' name ='Contact'/>
         </div>
     )
 }

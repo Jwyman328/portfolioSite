@@ -57,20 +57,7 @@ html {
   height: 110px;
 }
 
-.headerContainer {
-  background-color: #1cb0ff;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 999;
-  opacity: .8;
-  width: 100vw;
-}
+
 
 .projectHeaderContainer {
   background-color: #1cb0ff;
@@ -89,26 +76,10 @@ html {
 
 
 
-.headerElement {
-  font-size: x-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-.headerElement:hover {
-  position: relative;
-  top: -5px;
-}
 
 @media (max-width: 584px){
-  .headerContainer {
-    background-color: #1cb0ff;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+
+
   .projectHeaderContainer {
     background-color: #1cb0ff;
     height: 10vh;
@@ -118,19 +89,6 @@ html {
     justify-content: center;
   }
 
-  .profilePic {
-    flex: 0;
-    margin-right: 0px;
-    width: 0px;
-    border-radius: 0rem;
-    height: 0px;
-    visibility: hidden;
-  }
-
-  .headerElement {
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
 }
 
 .university {
@@ -310,7 +268,7 @@ li {
   .aboutContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 10vh;
 
 
 

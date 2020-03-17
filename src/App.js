@@ -1,6 +1,9 @@
 import React from "react";
 import profilePic from "./images/profilePic.jpg";
 import "./App.css";
+import './MobileHeader.css'
+import './MainHeader.css'
+
 import Header from "./components/header";
 import Skills from "./components/skills";
 import About from "./components/about";
