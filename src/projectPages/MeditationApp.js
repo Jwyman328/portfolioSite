@@ -4,9 +4,9 @@ import healthLanding from "./projectImages/meditationImages/healthDataLanding.pn
 import chooseCourse from "./projectImages/meditationImages/chooseCourse.png";
 import playMeditation from "./projectImages/meditationImages/playMeditation.png";
 import ProjectPhotoContainer from "./components/projectPhotoContainer";
-import SkillsContainer from "../components/SkillsContainer";
-import SkillsRow from "../components/skillsRow";
-import SkillsElement from "../components/skillsElement";
+import SkillsContainer from "../components/skillsComponents/SkillsContainer";
+import SkillsRow from "../components/skillsComponents/skillsRow";
+import SkillsElement from "../components/skillsComponents/skillsElement";
 
 //skill photos
 
@@ -16,8 +16,8 @@ import reactSvg from "../logos/logo-react.svg";
 import postgreSqlSgv from "../logos/postgresql.svg";
 import reduxSvg from "../logos/redux.svg";
 
-import ProjectHeader from '../components/projectHeader'
-
+import ProjectHeader from '../components/headers/projectHeader'
+import ProjectHeaderCloseable from '../components/headers/projectHeaderClosable'
 
 function MeditationApp(props) {
   const backEndSource = "https://github.com/Jwyman328/meditation_app_backend";
@@ -31,6 +31,8 @@ function MeditationApp(props) {
   return (
     <div className="background-design">
       <ProjectHeader />
+      <ProjectHeaderCloseable className='projectHeaderMobile' />
+
 
       <div className="projectTitle">
         <h1>Meditation App</h1>

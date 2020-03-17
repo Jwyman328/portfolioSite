@@ -6,9 +6,9 @@ import monthGraph from "./projectImages/fitnessChallenge/monthGraph.png";
 import fitnessAppLanding from '../images/projectImages/fitnessAppLanding.png'
 
 import ProjectPhotoContainer from "./components/projectPhotoContainer";
-import SkillsContainer from "../components/SkillsContainer";
-import SkillsRow from "../components/skillsRow";
-import SkillsElement from "../components/skillsElement";
+import SkillsContainer from "../components/skillsComponents/SkillsContainer";
+import SkillsRow from "../components/skillsComponents/skillsRow";
+import SkillsElement from "../components/skillsComponents/skillsElement";
 
 //skill photos
 
@@ -17,7 +17,8 @@ import djangoSvg from "../logos/django.svg";
 import cssSvg from '../logos/logo-css3.svg'
 import postgreSqlSgv from "../logos/postgresql.svg";
 
-import ProjectHeader from '../components/projectHeader'
+import ProjectHeader from '../components/headers/projectHeader'
+import ProjectHeaderCloseable from '../components/headers/projectHeaderClosable'
 
 function FitessApp(props) {
   const backEndSource = "https://github.com/Jwyman328/fitness_app";
@@ -30,6 +31,8 @@ function FitessApp(props) {
   return (
     <div className="background-design">
             <ProjectHeader />
+            <ProjectHeaderCloseable className='projectHeaderMobile' />
+
       <div className="projectTitle">
         <h1>Fitness Challenge App</h1>
       </div>

@@ -19,7 +19,8 @@
   }
 
   .closeableHeaderElement {
-    font-size: large;
+    margin-top: 1vh;
+    font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
@@ -35,6 +36,7 @@
       visibility: visible;
       width: 5vw;
       height: 5vh;
+      margin-top: 1vh;
     }
     .headerContainer {
       visibility: hidden;
@@ -48,7 +50,7 @@
       height: auto;
       min-height: 10vh;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
       position: fixed;

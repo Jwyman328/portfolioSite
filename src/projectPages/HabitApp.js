@@ -6,9 +6,9 @@ import dailyGraph from "./projectImages/habitImages/timedTimeGraph.png";
 import habitPhoto from '../images/projectImages/mainPageCheckedActivity.png'
 
 import ProjectPhotoContainer from "./components/projectPhotoContainer";
-import SkillsContainer from "../components/SkillsContainer";
-import SkillsRow from "../components/skillsRow";
-import SkillsElement from "../components/skillsElement";
+import SkillsContainer from "../components/skillsComponents/SkillsContainer";
+import SkillsRow from "../components/skillsComponents/skillsRow";
+import SkillsElement from "../components/skillsComponents/skillsElement";
 
 //skill photos
 
@@ -17,7 +17,8 @@ import cssSvg from '../logos/logo-css3.svg'
 import postgreSqlSgv from "../logos/postgresql.svg";
 import reactSvg from "../logos/logo-react.svg";
 
-import ProjectHeader from '../components/projectHeader'
+import ProjectHeader from '../components/headers/projectHeader'
+import ProjectHeaderCloseable from '../components/headers/projectHeaderClosable'
 
 function HabitApp(props) {
   const backEndSource = "https://github.com/Jwyman328/habit_tracket";
@@ -31,6 +32,8 @@ function HabitApp(props) {
   return (
     <div className="background-design">
       <ProjectHeader />
+      <ProjectHeaderCloseable className='projectHeaderMobile' />
+
       <div className="projectTitle">
         <h1>Habit Tracking App</h1>
       </div>

@@ -1,11 +1,12 @@
 import React from 'react';
 import profilePic from './images/profilePic.jpg';
 import './App.css';
-import Header from './components/header'
-import CloseableHeader from './components/ClosableHeader'
-import Skills from './components/skills'
-import About from './components/about'
-import Projects from './components/projects'
+
+import Header from './components/headers/header'
+import CloseableHeader from './components/headers/ClosableHeader'
+import Skills from './components/homePageSections/skills'
+import About from './components/homePageSections/about'
+import Projects from './components/homePageSections/projects'
 import { Link, Element, } from "react-scroll";
 import Footer from './components/footer/footer'
  

@@ -1,5 +1,5 @@
 import React from "react";
-import smallMainPhoto from '../images/smallMainSide.png'
+import smallMainPhoto from '../../images/smallMainSide.png'
 
 function About(props) {
   return (

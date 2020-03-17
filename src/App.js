@@ -3,11 +3,12 @@ import profilePic from "./images/profilePic.jpg";
 import "./App.css";
 import './MobileHeader.css'
 import './MainHeader.css'
+import './ProjectHeader.css'
 
-import Header from "./components/header";
-import Skills from "./components/skills";
-import About from "./components/about";
-import Projects from "./components/projects";
+import Header from "./components/headers/header";
+import Skills from "./components/homePageSections/skills";
+import About from "./components/homePageSections/about";
+import Projects from "./components/homePageSections/projects";
 import { Link, Element } from "react-scroll";
 import Footer from "./components/footer/footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";

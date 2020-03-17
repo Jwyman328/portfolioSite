@@ -1,0 +1,139 @@
+.projectHeaderContainer {
+    background-color: #1cb0ff;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .8;
+    width: 100vw;
+  }
+
+  .projectHeaderMobile {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  
+  .projectMenuIcon{
+      visibility: hidden;
+      height: 0;
+      width: 0;
+  }
+
+.projectHeaderElements{
+    background-color: #1cb0ff;
+    min-height: 10vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .8;
+    width: 100vw;
+}
+
+.closeableHeaderElement{
+    visibility: visible;
+    height: 0vh;
+    width: 0vh;
+}
+
+.closeableProjectHeaderContainer{
+    visibility: visible;
+    height: 0vh;
+    width: 0vh;
+}
+
+.closeAbleprojectHeaderElements{
+    visibility: visible;
+    height: 0vh;
+    width: 0vh;
+}
+
+@media (max-width: 584px){
+     .projectMenuIcon{
+        visibility: visible;
+        height: auto;
+        width: auto;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    .projectHeaderContainer {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    }
+
+    .projectHeaderElements{
+        height: 0vh;
+        width: 0vh;
+    } 
+  
+    .projectHeaderMobile {
+        visibility: visible;
+        height: auto;
+        width: auto;
+      }
+
+    .projectHeaderMain {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .closeableProjectHeaderContainer{
+        background-color: #1cb0ff;
+        min-height: 10vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        opacity: .8;
+        width: 100vw;
+    }
+    .closeAbleprojectHeaderElements{
+        background-color: #1cb0ff;
+        min-height: 10vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+        opacity: .8;
+        width: 100vw;
+    }
+
+    .closeableHeaderElement {
+        height: auto;
+        width: 100vw;
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    
+    
+    .closeableHeaderElement:hover {
+        position: relative;
+        top: -5px;
+      }
+
+  
+  }

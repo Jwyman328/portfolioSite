@@ -1,6 +1,6 @@
 import React from 'react'
-import HeaderElement from './headerElement'
-import profilePic from '../images/profilePic.jpg';
+import HeaderElement from './headerElements/headerElement'
+import profilePic from '../../images/profilePic.jpg';
 
 function Header(){
     return(

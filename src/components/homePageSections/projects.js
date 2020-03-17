@@ -1,9 +1,9 @@
 import React from "react";
-import meditationPhoto from "../images/projectImages/meditation.png";
-import habitPhoto from '../images/projectImages/mainPageCheckedActivity.png'
-import ProjectElement from './projectElement'
-import fitnessAppPhoto from '../images/projectImages/fitnessAppLanding.png'
-import fullChallenge from '../images/projectImages/fullChallenge.png'
+import meditationPhoto from "../../images/projectImages/meditation.png";
+import habitPhoto from '../../images/projectImages/mainPageCheckedActivity.png'
+import ProjectElement from '../headers/headerElements/projectElement'
+import fitnessAppPhoto from '../../images/projectImages/fitnessAppLanding.png'
+import fullChallenge from '../../images/projectImages/fullChallenge.png'
 
 
 function Projects(props) {
