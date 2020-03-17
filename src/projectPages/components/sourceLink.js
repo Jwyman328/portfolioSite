@@ -4,7 +4,7 @@ function SourceLink(props) {
 
     return (
         <a target="_blank" href={props.source}>
-        <div onClick='goToSource' className='sourceLink'>
+        <div className='sourceLink'>
             {props.title}
         </div>
         </a>

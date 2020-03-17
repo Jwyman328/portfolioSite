@@ -10,11 +10,7 @@ import Projects from './components/homePageSections/projects'
 import { Link, Element, } from "react-scroll";
 import Footer from './components/footer/footer'
  
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+
 
 function HomePage(props) {
     return (
