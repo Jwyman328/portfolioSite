@@ -1,6 +1,5 @@
 import React from 'react';
 import profilePic from './images/profilePic.jpg';
-import './App.css';
 
 import Header from './components/headers/header'
 import CloseableHeader from './components/headers/ClosableHeader'

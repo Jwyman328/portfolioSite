@@ -63,8 +63,33 @@ function FitessApp(props) {
               <li>Challenge/Compete against Friends</li>
               <li>Set Goals</li>
             </ul>
+            <h3>Project Story</h3>
+          <p>
+            My family considers themselves occasional workout enthusiasts that tend to 
+            get competitive at any sign of competition. One year, in order to promote 
+            each other to be healthier we started a fitness competition, simply 
+            tracking our sleep, steps, workout and diet, and logging it into 
+            google sheets. As soon as I got my programming skills up, I knew exactly 
+            what I wanted to build, a web app that would allow my family to easily track
+            thier health habits and compete against one another by scoring points for how 
+            healthy they had been. The project ended up growing well beyond what was once 
+            just a simple google sheet, allowing users to set goals for themselves, 
+            challenge other family members and see all their hard work laid out in 
+            visually appealing graphs.
+          </p>
+          <h3>Project Challenges</h3>
+          <p>
+            The main challenges I faced was when I was forced to make the site responsive. 
+            Being more focused on getting the apps features to work properly I opted to use bootstrap
+            to handle the responsiveness. This helped immensely but also felt quite restrictive at times.
+            The other big challenge faced was when it came to structuring the relational databases. Mapping out 
+            the way that users could make challenge invitations sent out to other users, but having a different 
+            data table for only the users that had accepted the challenge really pushed me forward to learn 
+            the ins and outs of many-to-many table relationships.
+          </p>
+        </div>
           </div>
-      </div>
+     
 
       <SkillsContainer>
         <h2 className="skillTitle">Main Technologies Used</h2>

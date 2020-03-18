@@ -1,9 +1,11 @@
 import React from "react";
 import profilePic from "./images/profilePic.jpg";
-import "./App.css";
-import './MobileHeader.css'
-import './MainHeader.css'
-import './ProjectHeader.css'
+
+import "../src/css/App.css";
+
+import '../src/css/MobileHeader.css'
+import '../src/css/MainHeader.css'
+import '../src/css/ProjectHeader.css'
 
 import Header from "./components/headers/header";
 import Skills from "./components/homePageSections/skills";

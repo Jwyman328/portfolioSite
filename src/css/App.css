@@ -129,7 +129,6 @@ li {
 }
 
 .footerContent {
-  font-size: medium;
   font-weight: normal;
   font-size: large;
 
@@ -523,6 +522,7 @@ li {
 .sourceLink {
   color: black;
   font-weight: bold;
+  font-size: x-large;
   border-color: white;
   border-width: 2;
   border-style: solid;
@@ -620,6 +620,17 @@ a {
   display: block;
   width: 35vw;
   height: 40vh;
+}
+.sourceLink {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  border-color: white;
+  border-width: 2;
+  border-style: solid;
+  width: 25vw;
+  height: 17vh;
+
 }
 
 }

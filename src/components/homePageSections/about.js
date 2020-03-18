@@ -11,9 +11,9 @@ function About(props) {
         <h2>Joseph Wyman</h2>
         <h3>Full Stack Web Developer</h3>
         <p>
-          Hi, I'm Joe a passionate self-taught web developer on a journey to
+          Hello there! I'm Joe a passionate self-taught web developer on a journey to
           never stop learning. My passion for learning isn't only seen in 
-          my development but throughout many aspects of my life,
+          web development but throughout many aspects of my life,
           including foreign language (spanish), and music (guitar,
           keyboard).
         </p>
@@ -30,11 +30,7 @@ function About(props) {
           </li>
 
         </div>
-        <div className="aboutEducation">
-          <h4>Langauges</h4>
-          <p>English: Native Speaker </p>
-          <p>Spanish: Fluent</p>
-        </div>
+
       </div>
     </div>
   );

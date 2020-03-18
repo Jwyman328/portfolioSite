@@ -67,6 +67,26 @@ function MeditationApp(props) {
               <li>Create a Journal</li>
               <li>Message Friends</li>
             </ul>
+            <h3>Project Story</h3>
+          <p>
+            One day I was approached by my brother if I was interested in a 
+            freelancing gig to build a MVP meditation app for a a friend of his who is a mindfull meditation 
+            specialist. I had never built an app before, so before I agreed to the deal I
+             wanted to see for myself if I could build a full fledge IOS app. After spending just 
+             a few weeks getting the basics down of React Native I jumped right into building the app,
+             seeing just how far I could take it. When I was finished I had an app far beyond what 
+             I believe I could do in just a few short weeks. Everything from authentication, integrating audio,
+             communicating with the phone to track steps, and much more. 
+          </p>
+          <h3>Project Challenges</h3>
+          <p> Having to pick up a new technology (React Native and mobile development) seemed 
+            challenging but my previous experience with react helped lessen the learning curve. 
+            A major pitfall I fell into early was getting the program to deal with audio,
+            but after lots of determination I finally got the audio mediations to work. As the 
+            program grew and grew I needed to handle the challenges of managing a large amount of data 
+            at each moment in the program. This led me straight to redux. Quickly redux gave me problems 
+            as I had to integrate it with my API calls, but once I got redux-thunk middleware 
+            working, data management become easily manageable.</p>
           </div>
       </div>
 
