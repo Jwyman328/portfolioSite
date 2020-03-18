@@ -127,6 +127,8 @@ h1 {
     .container {
       position: relative;
       width: 55vw;
+      max-width: 350px;
+
       height: 42vh;
       display: flex;
       flex-direction: row;
@@ -145,6 +147,7 @@ h1 {
   
   .projectImage {
     width: 55vw;
+    max-width: 350px;
     height: 42vh;
   }
   .image {
