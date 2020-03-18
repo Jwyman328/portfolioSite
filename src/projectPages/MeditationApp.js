@@ -97,7 +97,7 @@ function MeditationApp(props) {
       </div>
 
       <SkillsContainer>
-        <h2 className="skillTitle">Main Technologies Used</h2>
+        <h1 className="skillTitle">Main Technologies Used</h1>
 
         <SkillsRow>
           <SkillsElement name="React Native" logo={reactSvg} />
