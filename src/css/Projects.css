@@ -28,8 +28,8 @@ h1 {
   .homePageProjectsTitle {
     height: 5vh;
     opacity: .8;
-    margin-bottom: 7vh ;
-    margin-top: 7vh ;
+    margin-bottom: 2vh ;
+    margin-top: 0vh ;
   
   }
   
@@ -46,7 +46,7 @@ h1 {
   .projectsContainerOuter {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     margin-top: 6vh;
    
@@ -100,9 +100,12 @@ h1 {
   
   
   
-  @media (max-width: 1200px){
+  @media (max-width: 900px){
   
-  
+    .homePageProjectsTitle {
+      margin-top: 2vh;
+      margin-bottom: 0vh;
+    }
   
   .projectsContainerOuter {
     display: flex;
@@ -216,12 +219,11 @@ h1 {
   .photoSetContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 75vh;
-    max-height: 115vh;
 
-    height:auto;
+    min-height: 100vh;
+    height: auto;
     width: 35vw;
     opacity: .8;
     margin-bottom: 5vh;
@@ -246,7 +248,6 @@ h1 {
     width: 20vw;
     min-height: 40vh;
     max-height: 50vh;
-
     height: auto;
   }
   
@@ -323,7 +324,7 @@ h1 {
     text-decoration: none
   }
   
-  @media (max-width: 1200px){
+  @media (max-width: 900px){
     .projectAboutContainer {
       flex-direction: column;
       align-items: center;
@@ -348,7 +349,8 @@ h1 {
     align-items: center;
     width: 100vw;
   
-    min-height: 55vh;
+    min-height: 65vh;
+    
     height: auto;
     margin-bottom: 0vh;
     margin-left: 0vw;
@@ -361,7 +363,7 @@ h1 {
     width: 35vw;
     max-width: 300px;
     margin-left: 0vw;
-    margin-right: ovw;
+    margin-right: 0vw;
     
   
   }
