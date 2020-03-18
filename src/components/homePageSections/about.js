@@ -11,7 +11,7 @@ function About(props) {
         <h2>Joseph Wyman</h2>
         <h3>Full Stack Web Developer</h3>
         <p>
-          Hello there! I'm Joe a passionate self-taught web developer on a
+          Hello there! I'm Joe, a passionate self-taught web developer on a
           journey to never stop learning. My passion for learning isn't only
           seen in web development but throughout many aspects of my life,
           including foreign language (Spanish), and music (guitar, keyboard).
