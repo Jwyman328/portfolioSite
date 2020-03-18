@@ -68,7 +68,7 @@ function FitessApp(props) {
             My family considers themselves occasional workout enthusiasts that tend to 
             get competitive at any sign of competition. One year, in order to promote 
             each other to be healthier we started a fitness competition, simply 
-            tracking our sleep, steps, workout and diet, and logging it into 
+            tracking our sleep, steps, workout and diet by logging it into 
             google sheets. As soon as I got my programming skills up, I knew exactly 
             what I wanted to build, a web app that would allow my family to easily track
             thier health habits and compete against one another by scoring points for how 
@@ -83,8 +83,8 @@ function FitessApp(props) {
             Being more focused on getting the apps features to work properly I opted to use bootstrap
             to handle the responsiveness. This helped immensely but also felt quite restrictive at times.
             The other big challenge faced was when it came to structuring the relational databases. Mapping out 
-            the way that users could make challenge invitations sent out to other users, but having a different 
-            data table for only the users that had accepted the challenge really pushed me forward to learn 
+            relational database tables that handled challenge invitations while also seperatly handling tables for 
+            only those that had accepted the challenge really pushed me forward to learn 
             the ins and outs of many-to-many table relationships.
           </p>
         </div>
