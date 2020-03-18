@@ -74,6 +74,7 @@
     .aboutPhoto {
       height: 50vh;
       width: 75vw;
+      max-width: 400px;
       margin: 2vw;
       border-color: black;
       border-style: solid;
