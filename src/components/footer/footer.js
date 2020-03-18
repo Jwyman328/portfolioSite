@@ -12,8 +12,7 @@ function Footer(props) {
 
   const githubLink = (
     <a target="_blank" href="https://github.com/Jwyman328">
-      {" "}
-      {gitPho}{" "}
+      {gitPho}
     </a>
   );
   const linkedinLink = (
@@ -21,8 +20,7 @@ function Footer(props) {
       target="_blank"
       href="https://www.linkedin.com/in/joseph-wyman-3a1a65132/"
     >
-      {" "}
-      {linkPho}{" "}
+      {linkPho}
     </a>
   );
 

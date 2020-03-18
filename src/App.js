@@ -3,14 +3,13 @@ import profilePic from "./images/profilePic.jpg";
 
 import "../src/css/App.css";
 
-import '../src/css/MobileHeader.css'
-import '../src/css/MainHeader.css'
-import '../src/css/ProjectHeader.css'
-import '../src/css/Footer.css'
-import '../src/css/Skills.css'
-import '../src/css/About.css'
-import '../src/css/Projects.css'
-
+import "../src/css/MobileHeader.css";
+import "../src/css/MainHeader.css";
+import "../src/css/ProjectHeader.css";
+import "../src/css/Footer.css";
+import "../src/css/Skills.css";
+import "../src/css/About.css";
+import "../src/css/Projects.css";
 
 import Header from "./components/headers/header";
 import Skills from "./components/homePageSections/skills";
@@ -29,8 +28,7 @@ import MeditationApp from "./projectPages/MeditationApp";
 function App() {
   return (
     <div className="App">
-    <Router >
-
+      <Router>
         <Switch>
           <Route exact path="/">
             <HomePage />
@@ -56,9 +54,11 @@ function App() {
             <HabitApp />
           </Route>
         </Switch>
-        <Element name='Contact'  className='Contact' > <Footer /> </Element>
-    </Router>
-    
+        <Element name="Contact" className="Contact">
+          {" "}
+          <Footer />{" "}
+        </Element>
+      </Router>
     </div>
   );
 }

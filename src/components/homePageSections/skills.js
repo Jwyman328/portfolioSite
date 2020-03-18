@@ -13,31 +13,27 @@ import postgreSqlSgv from "../../logos/postgresql.svg";
 import cssSvg from "../../logos/logo-css3.svg";
 
 import SkillsElement from "../skillsComponents/skillsElement";
-import SkillsContainer from '../skillsComponents/SkillsContainer';
-import SkillsRow from '../skillsComponents/skillsRow'
+import SkillsContainer from "../skillsComponents/SkillsContainer";
+import SkillsRow from "../skillsComponents/skillsRow";
 
 function Skills(props) {
   return (
     <SkillsContainer>
-        <h2 className="skillTitle">Technologies</h2>
+      <h2 className="skillTitle">Technologies</h2>
 
-        <SkillsRow>
-          <SkillsElement name="JavaScript" logo={jsSvg} />
-          <SkillsElement name="CSS" logo={cssSvg} />
-          <SkillsElement name="React & React Native" logo={reactSvg} />
-          <SkillsElement name="Nodejs" logo={nodeSvg} />
-      
-        </SkillsRow>
+      <SkillsRow>
+        <SkillsElement name="JavaScript" logo={jsSvg} />
+        <SkillsElement name="CSS" logo={cssSvg} />
+        <SkillsElement name="React & React Native" logo={reactSvg} />
+        <SkillsElement name="Nodejs" logo={nodeSvg} />
+      </SkillsRow>
 
-        <SkillsRow>
-          <SkillsElement name="Python" logo={pythonSvg} />
-          <SkillsElement name="Django" logo={DjangoSvg} />
-          <SkillsElement name="MongoDB" logo={mongoStackSvg} />
-          <SkillsElement name="PostgreSQL" logo={postgreSqlSgv} />
-      
-        </SkillsRow>
-        
-
+      <SkillsRow>
+        <SkillsElement name="Python" logo={pythonSvg} />
+        <SkillsElement name="Django" logo={DjangoSvg} />
+        <SkillsElement name="MongoDB" logo={mongoStackSvg} />
+        <SkillsElement name="PostgreSQL" logo={postgreSqlSgv} />
+      </SkillsRow>
     </SkillsContainer>
   );
 }

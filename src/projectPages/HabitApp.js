@@ -62,23 +62,25 @@ function HabitApp(props) {
           </ul>
           <h3>Project Story</h3>
           <p>
-            As a way to dive head first into react, while also having it talk with a
-            completely seperate programming languaged backend, I decide to
-            developed a habit tracking app. Not only was this app made for
-            learning purposes but I felt that I could actually use it
-             to track my time spent programming.
+            As a way to dive head first into react, while also having it talk
+            with a completely separate programming languaged backend, I decide
+            to developed a habit tracking app. Not only was this app made for
+            learning purposes but I felt that I could actually use it to track
+            my time spent programming.
           </p>
           <h3>Project Challenges</h3>
-          <p>Having previously been focused in stricly django I faced the challenges of leaving the comfort
-            of coding in a world where everything was nicely bundled together.
-            The batteries included aspect of django is nice to point you in the right direction,
-            but separating myself from such restrictions propelled me to learn more, including 
-            jwt vs cookie authentication, CORS, babel and webpack.
-            The challenges of coding in two different enviornments, with completely different 
-            syntax, package/enviornment managers, and communities seemed daunting at first,
-            but once I navigated through to get both systems talking to one another I really 
-            picked up steam.
-            </p>
+          <p>
+            Having previously been focused in strictly django I faced the
+            challenges of leaving the comfort of coding in a world where
+            everything was nicely bundled together. The batteries included
+            aspect of django is nice to point you in the right direction, but
+            separating myself from such restrictions propelled me to learn more,
+            including jwt vs cookie authentication, CORS, babel and webpack. The
+            challenges of coding in two different environment, with completely
+            different syntax, package/environment managers, and communities
+            seemed daunting at first, but once I navigated through to get both
+            systems talking to one another I really picked up steam.
+          </p>
         </div>
       </div>
 
