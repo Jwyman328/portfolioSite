@@ -64,8 +64,6 @@ html {
 
 @media (max-width: 584px){
 
-
-
   .profilePic {
     visibility: hidden;
     flex: 0;
@@ -91,59 +89,7 @@ li {
   line-height: 1.5;
 }
 
-.footerContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 18vh;
-  background-color: #6b1cff;
-  opacity: .8;
 
-}
-
-@media (max-width: 757px){
-
-  .footerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 75vh;
-    background-color: #6b1cff;
-    opacity: .8;
-  
-  }
-}
-
-.footerElement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  font-size: x-large;
-  height: 20vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  color: black;
-}
-
-.footerContent {
-  font-weight: normal;
-  font-size: large;
-
-}
-
-.footerLogo {
-  height: 40px;
-  border-radius: 1000px;
-  position: relative;
-
-}
-
-.footerLogo:hover {
-  top: -5px;
-}
 
 .skillsContiner {
   display: flex;

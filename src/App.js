@@ -6,6 +6,7 @@ import "../src/css/App.css";
 import '../src/css/MobileHeader.css'
 import '../src/css/MainHeader.css'
 import '../src/css/ProjectHeader.css'
+import '../src/css/Footer.css'
 
 import Header from "./components/headers/header";
 import Skills from "./components/homePageSections/skills";
