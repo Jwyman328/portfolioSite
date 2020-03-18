@@ -19,7 +19,7 @@ import SkillsRow from "../skillsComponents/skillsRow";
 function Skills(props) {
   return (
     <SkillsContainer>
-      <h2 className="skillTitle">Technologies</h2>
+      <h1 className="skillTitle">Technologies</h1>
 
       <SkillsRow>
         <SkillsElement name="JavaScript" logo={jsSvg} />
