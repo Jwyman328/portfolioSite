@@ -237,6 +237,8 @@
     display: block;
     width: 20vw;
     min-height: 40vh;
+    max-height: 50vh;
+
     height: auto;
   }
   
@@ -349,7 +351,7 @@
   .photoContainer {
     height: 40vh;
     width: 35vw;
-    background-color: yellow;
+    max-width: 250px;
     margin-left: 0vw;
     margin-right: ovw;
     
@@ -359,6 +361,7 @@
   .projectPhoto {
     display: block;
     width: 35vw;
+    max-width: 250px;
     height: 40vh;
   }
   .sourceLink {
