@@ -1,0 +1,58 @@
+.skillsContiner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    min-height: 65vh ;
+    height: auto;
+    background-color: #1c3fff;
+    margin-bottom: 10vh;
+    padding-bottom: 2vh;
+  
+  }
+  
+  
+  .skillsContinerOpacity {
+    opacity: .8;
+  }
+  
+  .skillsRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  
+  .skillsElement {
+  
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .skillsPhoto {
+    height: 100px;
+  }
+  
+  .skillTitle {
+  
+    flex: .1;
+    font-size: xx-large;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  
+
+
+@media (max-width: 760px){
+
+
+    .skillsRow {
+      flex-direction: column;
+    }
+}  

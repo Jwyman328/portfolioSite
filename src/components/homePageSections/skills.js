@@ -1,5 +1,6 @@
 import React from "react";
-import SkillsElement from "../skillsComponents/skillsElement";
+
+//logos
 import DjangoSvg from "../../logos/django.svg";
 import githubSvg from "../../logos/logo-github.svg";
 import jsSvg from "../../logos/logo-javascript.svg";
@@ -10,6 +11,8 @@ import mongoDBSvg from "../../logos/mongodb.svg";
 import mongoStackSvg from "../../logos/mongoDBStack.svg";
 import postgreSqlSgv from "../../logos/postgresql.svg";
 import cssSvg from "../../logos/logo-css3.svg";
+
+import SkillsElement from "../skillsComponents/skillsElement";
 import SkillsContainer from '../skillsComponents/SkillsContainer';
 import SkillsRow from '../skillsComponents/skillsRow'
 
