@@ -69,8 +69,8 @@ function MeditationApp(props) {
           <h3>Project Story</h3>
           <p>
             One day I was approached by my brother to see if I was interested in
-            a freelancing gig to build a MVP meditation app for a friend of his
-            who is a mindfull meditation specialist. I had never built an app
+            a freelancing gig to build a MVP native mobile meditation app for a friend of his
+            who is a mindfull meditation specialist. I had never built a native mobile app
             before, so before I agreed to the deal I wanted to see for myself if
             I could build a full fledged IOS app. After spending just a few
             weeks getting the basics down of React Native I jumped right into
