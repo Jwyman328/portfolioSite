@@ -5,7 +5,7 @@ import gitLogo from "../../logos/github.png";
 import linkdenLogo from "../../logos/linkdenin.png";
 import githubSvg from "../../logos/logo-github.svg";
 import linkdenSvg from "../../logos/logo-linkedin.svg";
-
+import resume from './JosephWymanResume.pdf'
 function Footer(props) {
   const gitPho = <img className="footerLogo" src={githubSvg} />;
   const linkPho = <img className="footerLogo" src={linkdenLogo} />;
@@ -24,11 +24,18 @@ function Footer(props) {
     </a>
   );
 
+  const resumeTag = (
+    <a className="Resume" href={resume} download>
+      Download
+    </a>
+  );
+
   return (
     <div className="footerContainer">
       <FooterElement title="Phone" content="1-508-745-9689" />
       <FooterElement title="Location" content="Massachusetts, USA" />
       <FooterElement title="Email" content="jwymandev@gmail.com" />
+      <FooterElement title="Resume" content={resumeTag} />
       <FooterElement title="Github" content={githubLink} />
       <FooterElement title="Linkedin" content={linkedinLink} />
     </div>

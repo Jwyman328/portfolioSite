@@ -42,7 +42,7 @@
   }
   
   .footerLogo {
-    height: 40px;
+    height: 30px;
     border-radius: 1000px;
     position: relative;
   
@@ -50,4 +50,9 @@
   
   .footerLogo:hover {
     top: -5px;
+  }
+
+  .Resume {
+    font-size: large;
+    color: black;
   }
