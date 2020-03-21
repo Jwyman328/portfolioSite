@@ -33,7 +33,7 @@ function Footer(props) {
   return (
     <div className="footerContainer">
       <FooterElement title="Phone" content="1-508-745-9689" />
-      <FooterElement title="Location" content="Massachusetts, USA" />
+      <FooterElement title="Location" content="Massachusetts" />
       <FooterElement title="Email" content="jwymandev@gmail.com" />
       <FooterElement title="Resume" content={resumeTag} />
       <FooterElement title="Github" content={githubLink} />
