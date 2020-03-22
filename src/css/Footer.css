@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    height: 18vh;
-    background-color: #6b1cff;
+    height: 20vh;
+    background-color: #618dfb;
     opacity: .8;
   
   }
@@ -17,7 +17,7 @@
       align-items: center;
       justify-content: space-evenly;
       height: 75vh;
-      background-color: #6b1cff;
+      background-color: #618dfb;
       opacity: .8;
     
     }

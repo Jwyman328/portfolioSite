@@ -29,6 +29,7 @@
     .mobileHeader {
       visibility: visible;
       width: 100vw;
+      min-height: 10vh;
       height: auto;
     }
     
@@ -45,7 +46,7 @@
     }
 
     .closeableHeaderContainer {
-    visibility: visible;
+      visibility: visible;
       background-color: #1cb0ff;
       height: auto;
       min-height: 10vh;

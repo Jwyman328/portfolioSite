@@ -55,8 +55,7 @@ function App() {
           </Route>
         </Switch>
         <Element name="Contact" className="Contact">
-          {" "}
-          <Footer />{" "}
+          <Footer />
         </Element>
       </Router>
     </div>
