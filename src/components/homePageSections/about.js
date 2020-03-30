@@ -8,7 +8,7 @@ function About(props) {
         <img className="aboutPhoto" src={smallMainPhoto} />
       </div>
       <div className="aboutTextContainer">
-        <h2>Joseph Wyman</h2>
+        <h1 className='name-header'>Joseph Wyman</h1>
         <h3>Full Stack Web Developer</h3>
         <p>
           Hello there! I'm Joe, a passionate self-taught web developer on a
@@ -16,9 +16,10 @@ function About(props) {
           seen in web development but throughout many aspects of my life,
           including foreign language (Spanish), and music (guitar, keyboard).
         </p>
-        <p>Main Focuses: Web Applications, REST APIs</p>
+        <p> <span className='main-focus'>Main Focuses:</span> Web Applications, REST APIs</p>
+      
         <div className="aboutEducation">
-          <h4>Education</h4>
+          <h4 className='education-title'>Education:</h4>
           <p>Masters: Economics </p>
           <li className="university">
             University of Rey Juan Carlos, Madrid, Spain{" "}

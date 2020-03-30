@@ -3,6 +3,26 @@
     width: 400px;
     height: 1500px;
   }
+  .name-header {
+    letter-spacing: .5vw;
+    font-weight: 400;
+  }
+
+  h3 {
+    letter-spacing: .15vw;
+    font-weight: 600;
+
+  }
+
+  .main-focus {
+    font-weight: 500;
+    letter-spacing: .10vw;
+  }
+
+  .education-title {
+    font-weight: 600;
+    letter-spacing: .10vw;
+  }
 
   .aboutContainer {
     display: flex;
@@ -45,6 +65,7 @@
   }
   
   .aboutEducation {
+    margin-top:5vh;
     line-height: 1;
   
   }
