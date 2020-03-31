@@ -16,12 +16,13 @@
   .headerElement {
     font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .2s;
   }
 
 
 .headerElement:hover {
     position: relative;
-    top: -5px;
+    transform: translateY(-5px);
   }
   
 
