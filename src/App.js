@@ -7,9 +7,9 @@ import "../src/css/MobileHeader.scss";
 import "../src/css/MainHeader.scss";
 import "../src/css/ProjectHeader.scss";
 import "../src/css/Footer.scss";
-import "../src/css/Skills.css";
+import "../src/css/Skills.scss";
 import "../src/css/About.scss";
-import "../src/css/Projects.css";
+import "../src/css/Projects.scss";
 
 import Header from "./components/headers/header";
 import Skills from "./components/homePageSections/skills";

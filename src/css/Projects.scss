@@ -1,6 +1,11 @@
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+$nuetral-shadow: 3px 3px 3px black;
+$large-shadow: 6px 6px 6px rgba(0, 0, 0, 0.803);
+$medium-shadow: 4px 4px 4px black;
+
 @media (max-width: 584px){
 
     .profilePic {
@@ -94,7 +99,7 @@ h1 {
     border-color: lightslategray;
     border-style: solid;
     border-width: 3;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: $nuetral-shadow;
     
   }
   
@@ -141,7 +146,7 @@ h1 {
       border-color: lightslategray;
       border-style: solid;
       border-width: 3;
-      box-shadow: 3px 3px 3px black;
+      box-shadow: $nuetral-shadow;
       margin-bottom: 2vh;
       margin-top: 2vh;
   
@@ -198,7 +203,7 @@ h1 {
     border-color: black;
     border-style: solid;
     border-width: 3;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: $nuetral-shadow;
   }
   
   .textButton:hover {
@@ -240,7 +245,7 @@ h1 {
     border-style: solid;
     margin-top: 2.5vh;
     margin-left: 5vh;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: $nuetral-shadow;
   }
   
   .projectPhoto {
@@ -286,21 +291,24 @@ h1 {
     justify-content: center;
     background-color: white;
     opacity: .8;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: $nuetral-shadow;
     border-radius: 30px;
     transition: all .2s;
 
+    &:hover {
+      position: relative;
+      transform:translateY(-5px);
+      box-shadow: $large-shadow;  
+    }
+
+    &:active {
+      transform:translateY(-2px);
+      box-shadow: $medium-shadow;  
+    }
   }
   
-  .sourceLink:hover {
-    position: relative;
-    transform:translateY(-5px);
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.803);  
-  }
-  .sourceLink:active {
-    transform:translateY(-2px);
-    box-shadow: 4px 4px 4px black;  
-  }
+
+
   
   .projectAboutContainer {
     display: flex;
