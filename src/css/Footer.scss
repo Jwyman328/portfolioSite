@@ -1,10 +1,18 @@
+$footer-primary-color:#618dfb ;
+
+@mixin footer-layout-config($flex-direct){
+  display: flex;
+  flex-direction: $flex-direct;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
 .footerContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+
+    @include footer-layout-config(row);
     height: 20vh;
-    background-color: #618dfb;
+    background-color: $footer-primary-color;
     opacity: .8;
   
   }
@@ -12,22 +20,15 @@
   @media (max-width: 867px){
 
     .footerContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
+      @include footer-layout-config(column);
       height: 75vh;
-      background-color: #618dfb;
+      background-color: $footer-primary-color;
       opacity: .8;
-    
     }
   }
 
   .footerElement {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    @include footer-layout-config(column);
     font-size: x-large;
     height: 20vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,11 +46,12 @@
     height: 30px;
     border-radius: 1000px;
     position: relative;
+    transition: all .2s;
   
   }
   
   .footerLogo:hover {
-    top: -5px;
+    transform: translateY(-5px);
   }
 
   .Resume {

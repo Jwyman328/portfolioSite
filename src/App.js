@@ -1,12 +1,12 @@
 import React from "react";
 import profilePic from "./images/profilePic.jpg";
 
-import "../src/css/App.css";
+import "../src/css/App.scss";
 
 import "../src/css/MobileHeader.css";
 import "../src/css/MainHeader.css";
 import "../src/css/ProjectHeader.css";
-import "../src/css/Footer.css";
+import "../src/css/Footer.scss";
 import "../src/css/Skills.css";
 import "../src/css/About.scss";
 import "../src/css/Projects.css";
