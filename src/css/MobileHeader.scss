@@ -1,21 +1,23 @@
+$header-primary-color: #1cb0ff;
+
+@mixin hiddenItem {
+  visibility: hidden;
+  width: 0vw;
+  height: 0vh;
+}
+
 .mobileHeader {
-    visibility: hidden;
-    width: 0vw;
-    height: 0vh;
+   @include hiddenItem();
   }
 
 
   .menuIcon {
-    visibility: hidden;
-    width: 0vw;
-    height: 0vh;
+    @include hiddenItem();
   }
 
 
   .closeableHeaderContainer {
-    visibility: hidden;
-    width: 0vw;
-    height: 0vh;
+    @include hiddenItem();
   }
 
   .closeableHeaderElement {
@@ -40,14 +42,13 @@
       margin-top: 1vh;
     }
     .headerContainer {
-      visibility: hidden;
-      width: 0vw;
-      height: 0vh;
+      @include hiddenItem();
+
     }
 
     .closeableHeaderContainer {
       visibility: visible;
-      background-color: #1cb0ff;
+      background-color: $header-primary-color;
       height: auto;
       min-height: 10vh;
       display: flex;
