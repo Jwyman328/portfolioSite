@@ -1,3 +1,17 @@
+$about-primary-color: #618dfb;
+
+@mixin h3-lettering {
+  letter-spacing: .15vw;
+  font-weight: 600;
+}
+
+@mixin border-shadow {
+  border-color: black;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 3px 3px 3px black;
+}
+
 .about {
     background-color: aquamarine;
     width: 400px;
@@ -11,8 +25,7 @@
   }
 
   h3 {
-    letter-spacing: .15vw;
-    font-weight: 600;
+    @include h3-lettering; 
 
   }
 
@@ -35,7 +48,7 @@
     height: auto;
     width: 100vw;
     margin-top: 10vh;
-    background-color: #618dfb;
+    background-color: $about-primary-color;
     opacity: .8;
   
   }
@@ -60,10 +73,7 @@
     width: 30vw;
     margin: 2vw;
     margin-left: 5vw;
-    border-color: black;
-    border-style: solid;
-    border-width: 0;
-    box-shadow: 3px 3px 3px black;
+    @include border-shadow ;
     animation-name: moveInLeft;
     animation-duration: 2s;
   }
@@ -91,13 +101,13 @@
     }
   }
 
-  @keyFrames moveInTop{
-    0%{
+  @keyframes moveInTop{
+    0% {
       opacity:0;
       transform:translateY(-10vh)
     }
 
-    100%{
+    100% {
       opacity:1;
       transform:translateY(0)
     }
@@ -137,10 +147,7 @@
       width: 75vw;
       max-width: 400px;
       margin: 2vw;
-      border-color: black;
-      border-style: solid;
-      border-width: 0;
-      box-shadow: 3px 3px 3px black;
+      @include border-shadow ;
     }
 
     .name-header{

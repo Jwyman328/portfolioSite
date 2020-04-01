@@ -8,7 +8,7 @@ import "../src/css/MainHeader.css";
 import "../src/css/ProjectHeader.css";
 import "../src/css/Footer.css";
 import "../src/css/Skills.css";
-import "../src/css/About.css";
+import "../src/css/About.scss";
 import "../src/css/Projects.css";
 
 import Header from "./components/headers/header";
