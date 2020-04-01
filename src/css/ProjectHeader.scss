@@ -1,10 +1,37 @@
-.projectHeaderContainer {
-    background-color: #1cb0ff;
-    height: 10vh;
+$project-header-primary-color: #1cb0ff;
+
+@mixin project-header-layout($flexDirect) {
     display: flex;
-    flex-direction: row;
+    flex-direction: $flexDirect;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@mixin header-fixed-positioning() {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .8;
+    width: 100vw;
+}
+
+@mixin hidden-element() {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+@mixin visible-element() {
+    visibility: visible;
+    height: 0vh;
+    width: 0vh;
+}
+
+.projectHeaderContainer {
+    background-color: $project-header-primary-color;
+    height: 10vh;
+    @include project-header-layout(row);
     position: fixed;
     right: 0;
     left: 0;
@@ -14,25 +41,19 @@
   }
 
   .projectHeaderMobile {
-    visibility: hidden;
-    height: 0;
-    width: 0;
+    @include hidden-element();
   }
   
   .projectMenuIcon{
-      visibility: hidden;
-      height: 0;
-      width: 0;
+    @include hidden-element();
+
   }
 
 .projectHeaderElements{
-    background-color: #1cb0ff;
+    background-color: $project-header-primary-color;
     min-height: 10vh;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    @include project-header-layout(row);
     position: fixed;
     right: 0;
     left: 0;
@@ -42,21 +63,18 @@
 }
 
 .closeableHeaderElement{
-    visibility: visible;
-    height: 0vh;
-    width: 0vh;
+    @include visible-element();
+
 }
 
 .closeableProjectHeaderContainer{
-    visibility: visible;
-    height: 0vh;
-    width: 0vh;
+    @include visible-element();
+
 }
 
 .closeAbleprojectHeaderElements{
-    visibility: visible;
-    height: 0vh;
-    width: 0vh;
+    @include visible-element();
+
 }
 
 @media (max-width: 584px){
@@ -69,9 +87,8 @@
     }
 
     .projectHeaderContainer {
-    visibility: hidden;
-    height: 0;
-    width: 0;
+        @include hidden-element();
+
     }
 
     .projectHeaderElements{
@@ -86,40 +103,24 @@
       }
 
     .projectHeaderMain {
-        visibility: hidden;
-        height: 0;
-        width: 0;
+        @include hidden-element();
+
     }
 
     .closeableProjectHeaderContainer{
-        background-color: #1cb0ff;
+        background-color: $project-header-primary-color;
         min-height: 10vh;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        position: fixed;
-        right: 0;
-        left: 0;
-        z-index: 999;
-        opacity: .8;
-        width: 100vw;
+        @include project-header-layout(column);
+        @include header-fixed-positioning();
+
     }
     .closeAbleprojectHeaderElements{
-        background-color: #1cb0ff;
+        background-color: $project-header-primary-color;
         min-height: 10vh;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        position: fixed;
-        right: 0;
-        left: 0;
-        z-index: 999;
-        opacity: .8;
-        width: 100vw;
+        @include project-header-layout(column);
+       @include header-fixed-positioning();
     }
 
     .closeableHeaderElement {
@@ -128,13 +129,15 @@
         font-size: x-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         transition: all .2s;
+
+        &:hover {
+            position: relative;
+            transform: translateY(-5px);
+        }
       }
     
     
-    .closeableHeaderElement:hover {
-        position: relative;
-        transform: translateY(-5px);
-      }
+    
 
   
   }

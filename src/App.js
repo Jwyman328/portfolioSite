@@ -5,7 +5,7 @@ import "../src/css/App.scss";
 
 import "../src/css/MobileHeader.scss";
 import "../src/css/MainHeader.scss";
-import "../src/css/ProjectHeader.css";
+import "../src/css/ProjectHeader.scss";
 import "../src/css/Footer.scss";
 import "../src/css/Skills.css";
 import "../src/css/About.scss";
