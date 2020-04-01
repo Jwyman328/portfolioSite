@@ -1,5 +1,7 @@
+$primary-color:#1cb0ff;
+
 .headerContainer {
-    background-color: #1cb0ff;
+    background-color: $primary-color;
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -17,13 +19,15 @@
     font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: all .2s;
-  }
 
-
-.headerElement:hover {
-    position: relative;
+    &:hover {
+      position: relative;
     transform: translateY(-5px);
+    }
   }
+
+
+
   
 
   @media (max-width: 584px){
