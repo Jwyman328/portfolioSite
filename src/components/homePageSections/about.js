@@ -9,7 +9,7 @@ function About(props) {
       </div>
       <div className="aboutTextContainer">
         <h1 className='name-header'>Joseph Wyman</h1>
-        <h3>Full Stack Web Developer</h3>
+        <h3 className='job-title'>Full Stack Web Developer</h3>
         <p>
           Hello there! I'm Joe, a passionate self-taught web developer on a
           journey to never stop learning. My passion for learning isn't only

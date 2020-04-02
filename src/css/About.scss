@@ -24,9 +24,15 @@ $about-primary-color: #618dfb;
     animation-duration: 2s;
   }
 
-  h3 {
+  h3  {
     @include h3-lettering; 
+  }
 
+ 
+  .job-title {
+    background-image: linear-gradient(to right, #1c3fff,black);
+    -webkit-background-clip: text;
+    color:transparent;
   }
 
   .main-focus {
@@ -50,6 +56,8 @@ $about-primary-color: #618dfb;
     margin-top: 10vh;
     background-color: $about-primary-color;
     opacity: .8;
+
+
   
   }
 
