@@ -11,6 +11,8 @@ import mongoDBSvg from "../../logos/mongodb.svg";
 import mongoStackSvg from "../../logos/mongoDBStack.svg";
 import postgreSqlSgv from "../../logos/postgresql.svg";
 import cssSvg from "../../logos/logo-css3.svg";
+import sassSvg from "../../logos/logo-sass.svg";
+
 
 import SkillsElement from "../skillsComponents/skillsElement";
 import SkillsContainer from "../skillsComponents/SkillsContainer";
@@ -24,8 +26,10 @@ function Skills(props) {
       <SkillsRow>
         <SkillsElement name="JavaScript" logo={jsSvg} />
         <SkillsElement name="CSS" logo={cssSvg} />
+        <SkillsElement name="SASS" logo={sassSvg} />
         <SkillsElement name="React & React Native" logo={reactSvg} />
         <SkillsElement name="Nodejs" logo={nodeSvg} />
+
       </SkillsRow>
 
       <SkillsRow>
