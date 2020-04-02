@@ -26,7 +26,7 @@ function Skills(props) {
       <SkillsRow>
         <SkillsElement name="JavaScript" logo={jsSvg} />
         <SkillsElement name="CSS" logo={cssSvg} />
-        <SkillsElement name="SASS" logo={sassSvg} />
+        <SkillsElement name="Sass" logo={sassSvg} />
         <SkillsElement name="React & React Native" logo={reactSvg} />
         <SkillsElement name="Nodejs" logo={nodeSvg} />
 

@@ -12,7 +12,7 @@ import SkillsElement from "../components/skillsComponents/skillsElement";
 //skill photos
 
 import nodeJs from "../logos/logo-nodejs.svg";
-import cssSvg from "../logos/logo-css3.svg";
+import sassSvg from "../logos/logo-sass.svg";
 import mongoDb from "../logos/mongoDBStack.svg";
 import reactSvg from "../logos/logo-react.svg";
 import redisSvg from "../logos/redis.svg";
@@ -109,7 +109,7 @@ function NodeFitness(props) {
 
         <SkillsRow>
           <SkillsElement name="React" logo={reactSvg} />
-          <SkillsElement name="CSS" logo={cssSvg} />
+          <SkillsElement name="Sass" logo={sassSvg} />
           <SkillsElement name="Node.js" logo={nodeJs} />
           <SkillsElement name="MongoDB" logo={mongoDb} />
           <SkillsElement name="Docker" logo={dockerSvg} />
