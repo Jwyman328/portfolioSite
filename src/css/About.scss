@@ -1,4 +1,5 @@
 $about-primary-color: #618dfb;
+$about-card-color:#61fbcf;
 
 @mixin h3-lettering {
   letter-spacing: .15vw;
@@ -76,7 +77,75 @@ $about-primary-color: #618dfb;
   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .aboutPhoto {
+
+  .photoCard {
+    perspective: 1500px;
+    position: relative;
+    height: 58vh;
+    width: 65vw;
+    margin: 2vw;
+    margin-left: 5vw;
+    backface-visibility: hidden;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    transition: all 2s;
+
+
+  &:hover .card-front{
+    transform: rotateY(180deg);
+  }
+
+  &:hover .card-back{
+    transform: rotateY(0);
+  }
+
+  }
+
+  .card {
+    height: 58vh;
+    width: 100%;
+
+    position: absolute;
+    left:0;
+    backface-visibility: hidden;
+    transition: all .9s;
+    @include border-shadow ;
+
+    &-front {
+ 
+      background-image: url('../images/smallMainPhoto.png');
+      background-size: cover;
+      background-position: center;
+      background-color: coral;
+    }
+
+   &-back {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: $about-card-color;
+    transform: rotateY(180deg);
+  }
+
+  &-content {
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+  }
+
+  &-icon {
+    width:50px
+  }
+
+  }
+
+/*   .aboutPhoto {
     height: 58vh;
     width: 30vw;
     margin: 2vw;
@@ -91,7 +160,7 @@ $about-primary-color: #618dfb;
       box-shadow: 5px 5px 5px black;
       
     }
-  }
+  } */
 
   @keyframes moveInLeft {
     0% {
