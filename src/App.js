@@ -25,6 +25,7 @@ import FitnessApp from "./projectPages/FitnessApp";
 import NodeFitness from "./projectPages/nodeFitess";
 import MeditationApp from "./projectPages/MeditationApp";
 
+
 function App() {
   return (
     <div className="App">
