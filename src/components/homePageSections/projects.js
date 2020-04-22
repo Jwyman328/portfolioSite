@@ -3,6 +3,7 @@ import meditationPhoto from "../../images/projectImages/meditation.png";
 import habitPhoto from "../../images/projectImages/mainPageCheckedActivity.png";
 import ProjectElement from "../headers/headerElements/projectElement";
 import fitnessAppPhoto from "../../images/projectImages/fitnessAppLanding.png";
+import cloudNinePhoto from "../../images/projectImages/cloudNineScreen.png";
 import fullChallenge from "../../images/projectImages/fullChallenge.png";
 
 function Projects(props) {
@@ -17,22 +18,28 @@ function Projects(props) {
           appName="View Meditation App"
         />
         <ProjectElement
+          src={cloudNinePhoto}
+          routeName="CloudNineBand"
+          appName="Cloud Nine Band"
+        />
+        <ProjectElement
           src={fitnessAppPhoto}
           routeName="FitnessApp"
           appName="View Fitness Challenge"
         />
+
         <ProjectElement
           src={fullChallenge}
           routeName="NodeFitness"
           appName="View Node Fitness"
         />
+      </div>
+      <div className="projectsContainer">
         <ProjectElement
           src={habitPhoto}
           routeName="HabitApp"
           appName="View Habit App"
         />
-
-        {/*<ProjectElement src={habitPhoto} /> */}
       </div>
     </div>
   );
