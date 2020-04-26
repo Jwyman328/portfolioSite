@@ -20,7 +20,7 @@ function Projects(props) {
         <ProjectElement
           src={cloudNinePhoto}
           routeName="CloudNineBand"
-          appName="Cloud Nine Band"
+          appName="View Cloud Nine Band"
         />
         <ProjectElement
           src={fitnessAppPhoto}
