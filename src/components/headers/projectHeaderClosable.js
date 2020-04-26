@@ -37,6 +37,12 @@ function ProjectHeaderCloseable(props) {
           goToLocation="/NodeFitness"
         />
       ) : null}
+      {open ? (
+        <CloseableProjectHeaderElement
+          name="Cloud-Nine"
+          goToLocation="/CloudNineBand"
+        />
+      ) : null}
 
       <div onClick={OpenMenu} className="projectMenuIcon ">
         <img src={MenuIcon} />

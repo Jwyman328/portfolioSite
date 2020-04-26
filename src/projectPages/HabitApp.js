@@ -15,6 +15,8 @@ import djangoSvg from "../logos/django.svg";
 import cssSvg from "../logos/logo-css3.svg";
 import postgreSqlSgv from "../logos/postgresql.svg";
 import reactSvg from "../logos/logo-react.svg";
+import typeScriptLogo from "../logos/typescriptLogo.svg";
+
 
 import ProjectHeader from "../components/headers/projectHeader";
 import ProjectHeaderCloseable from "../components/headers/projectHeaderClosable";
@@ -89,6 +91,7 @@ function HabitApp(props) {
 
         <SkillsRow>
           <SkillsElement name="React" logo={reactSvg} />
+          <SkillsElement name="TypeScript" logo={typeScriptLogo} />
           <SkillsElement name="CSS" logo={cssSvg} />
           <SkillsElement name="Django REST Framework" logo={djangoSvg} />
           <SkillsElement name="PostgeSQL" logo={postgreSqlSgv} />

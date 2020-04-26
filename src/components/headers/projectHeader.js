@@ -18,6 +18,7 @@ function ProjectHeader(props) {
          <ProjectHeaderElement name='Fitness' goToLocation='/FitnessApp' />
          <ProjectHeaderElement name='Habit' goToLocation='/HabitApp' />
          <ProjectHeaderElement name='Node-Fitness' goToLocation='/NodeFitness' />
+         <ProjectHeaderElement name='Cloud-Nine' goToLocation='/CloudNineBand' />
         </div>
       
 
