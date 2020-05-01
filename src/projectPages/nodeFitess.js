@@ -24,7 +24,7 @@ import ProjectHeaderCloseable from "../components/headers/projectHeaderClosable"
 function NodeFitness(props) {
   const backEndSource = "https://github.com/Jwyman328/fitnessAppNode";
   const frontEndSource = "https://github.com/Jwyman328/fitnessAppNodeFrontEnd";
-  const appWebSite = "https://mighty-garden-11870.herokuapp.com/login";
+  const appWebSite = "https://awesome-allen-63c7e5.netlify.app/";
 
   useEffect(() => {
     window.scrollTo(0, 0);
