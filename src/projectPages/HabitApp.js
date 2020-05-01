@@ -24,7 +24,7 @@ import ProjectHeaderCloseable from "../components/headers/projectHeaderClosable"
 function HabitApp(props) {
   const backEndSource = "https://github.com/Jwyman328/habit_tracket";
   const frontEndSource = "https://github.com/Jwyman328/habit_tracket_frontend";
-  const appWebSite = "http://habit-tracker-app-frontend.herokuapp.com/login";
+  const appWebSite = "https://boring-kilby-cd9aae.netlify.app/";
 
   useEffect(() => {
     window.scrollTo(0, 0);
