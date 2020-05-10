@@ -43,6 +43,12 @@ function ProjectHeaderCloseable(props) {
           goToLocation="/CloudNineBand"
         />
       ) : null}
+       {open ? (
+        <CloseableProjectHeaderElement
+          name="Meditation-Web-App"
+          goToLocation="/MeditationWebApp"
+        />
+      ) : null}
 
       <div onClick={OpenMenu} className="projectMenuIcon ">
         <img src={MenuIcon} />

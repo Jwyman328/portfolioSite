@@ -25,6 +25,7 @@ import FitnessApp from "./projectPages/FitnessApp";
 import NodeFitness from "./projectPages/nodeFitess";
 import MeditationApp from "./projectPages/MeditationApp";
 import CloudNine from './projectPages/CloudNine';
+import MeditationWebApp from './projectPages/MeditationWebApp';
 
 function App() {
   return (
@@ -58,6 +59,11 @@ function App() {
         <Switch>
           <Route exact path="/CloudNineBand">
             <CloudNine />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/MeditationWebApp">
+            <MeditationWebApp />
           </Route>
         </Switch>
         <Element name="Contact" className="Contact">

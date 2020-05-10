@@ -5,7 +5,7 @@ import ProjectElement from "../headers/headerElements/projectElement";
 import fitnessAppPhoto from "../../images/projectImages/fitnessAppLanding.png";
 import cloudNinePhoto from "../../images/projectImages/cloudNineScreen.png";
 import fullChallenge from "../../images/projectImages/fullChallenge.png";
-
+import meditationWebAppPhoto from "../../images/projectImages/meditation_web_app_fs_photo.png";
 function Projects(props) {
   return (
     <div className="projectsContainerOuter">
@@ -15,7 +15,7 @@ function Projects(props) {
         <ProjectElement
           src={meditationPhoto}
           routeName="MeditationApp"
-          appName="View Meditation App"
+          appName="View Meditation Mobile App"
         />
         <ProjectElement
           src={cloudNinePhoto}
@@ -39,6 +39,11 @@ function Projects(props) {
           src={habitPhoto}
           routeName="HabitApp"
           appName="View Habit App"
+        />
+        <ProjectElement
+          src={meditationWebAppPhoto}
+          routeName="MeditationWebApp"
+          appName="View Meditation Web App"
         />
       </div>
     </div>
