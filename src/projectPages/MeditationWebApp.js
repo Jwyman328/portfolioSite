@@ -9,19 +9,18 @@ import SkillsElement from "../components/skillsComponents/skillsElement";
 
 //skill photos
 
-import DRFLogo from "../logos/djangoREST.png";
-import djangoSvg from "../logos/django.svg";
 import angularSvg from "../logos/angularLogo.svg";
-import postgreSqlSgv from "../logos/postgresql.svg";
 import sassLogo from "../logos/logo-sass.svg";
 import typeScriptSvg from "../logos/typescriptLogo.svg";
 
+import nodeJs from "../logos/logo-nodejs.svg";
+import mongoDb from "../logos/mongoDBStack.svg";
 
 import ProjectHeader from "../components/headers/projectHeader";
 import ProjectHeaderCloseable from "../components/headers/projectHeaderClosable";
 
 function MeditationWebApp(props) {
-  const backEndSource = "https://github.com/Jwyman328/meditation_app_backend";
+  const backEndSource = "https://github.com/Jwyman328/meditation_web_app_backend";
   const frontEndSource = "https://github.com/Jwyman328/meditation_web_app";
   const appWebSite = "https://reverent-jepsen-7d1dce.netlify.app/login";
 
@@ -61,6 +60,7 @@ function MeditationWebApp(props) {
           <h3>Features</h3>
           <ul>
             <li>Listen to Meditations</li>
+            <li>Track your Meditation Habits</li>
             <li>Track your Mood/ Mood swings</li>
             <li>Create a Journal</li>
           </ul>
@@ -89,8 +89,8 @@ function MeditationWebApp(props) {
           <SkillsElement name="Angular" logo={angularSvg} />
           <SkillsElement name="TypeScript" logo={typeScriptSvg} />
           <SkillsElement name="Sass" logo={sassLogo} />
-          <SkillsElement name="Django REST Framework" logo={djangoSvg} />
-          <SkillsElement name="PostgeSQL" logo={postgreSqlSgv} />
+          <SkillsElement name="Node.js" logo={nodeJs} />
+          <SkillsElement name="MongoDB" logo={mongoDb} />
         </SkillsRow>
       </SkillsContainer>
     </div>
