@@ -6,6 +6,8 @@ import fitnessAppPhoto from "../../images/projectImages/fitnessAppLanding.png";
 import cloudNinePhoto from "../../images/projectImages/cloudNineScreen.png";
 import fullChallenge from "../../images/projectImages/fullChallenge.png";
 import meditationWebAppPhoto from "../../images/projectImages/meditation_web_app_fs_photo.png";
+import universidadDeBastosPhoto from "../../images/projectImages/allVideos.png";
+
 function Projects(props) {
   return (
     <div className="projectsContainerOuter">
@@ -44,6 +46,11 @@ function Projects(props) {
           src={meditationWebAppPhoto}
           routeName="MeditationWebApp"
           appName="View Meditation Web App"
+        />
+        <ProjectElement
+          src={universidadDeBastosPhoto}
+          routeName="UniversidadDeBastos"
+          appName="Universidad Bastos"
         />
       </div>
     </div>

@@ -26,6 +26,8 @@ import NodeFitness from "./projectPages/nodeFitess";
 import MeditationApp from "./projectPages/MeditationApp";
 import CloudNine from './projectPages/CloudNine';
 import MeditationWebApp from './projectPages/MeditationWebApp';
+import UniversidadDeBastos from "./projectPages/UniversidadDeBastos";
+
 
 function App() {
   return (
@@ -64,6 +66,11 @@ function App() {
         <Switch>
           <Route exact path="/MeditationWebApp">
             <MeditationWebApp />
+          </Route>
+        </Switch>
+        <Switch>
+          <Route exact path="/UniversidadDeBastos">
+            <UniversidadDeBastos />
           </Route>
         </Switch>
         <Element name="Contact" className="Contact">
