@@ -24,7 +24,7 @@ import ProjectHeaderCloseable from "../components/headers/projectHeaderClosable"
 function UniversidadDeBastos(props) {
   const backEndSource = "https://github.com/Jwyman328/universidad_de_bastos_backend";
   const frontEndSource = "https://github.com/Jwyman328/universidad_de_bastos";
-  const appWebSite = "https://universidad-de-bastos.netlify.app/login";
+  const appWebSite = "https://universidad-de-bastos.netlify.app/";
 
   useEffect(() => {
     window.scrollTo(0, 0);
