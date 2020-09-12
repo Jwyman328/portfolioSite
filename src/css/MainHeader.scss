@@ -19,10 +19,13 @@ $primary-color:#1cb0ff;
     font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: all .2s;
+    cursor: pointer;
+
 
     &:hover {
       position: relative;
-    transform: translateY(-5px);
+    transform: scale(1.1);
+    color: white;
     }
   }
 

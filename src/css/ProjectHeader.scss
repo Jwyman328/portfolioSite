@@ -77,13 +77,18 @@ $project-header-primary-color: #1cb0ff;
 
 }
 
-@media (max-width: 884px){
+@media (max-width: 1084px){
      .projectMenuIcon{
         visibility: visible;
         height: auto;
         width: auto;
         margin-top: 1vh;
         margin-bottom: 1vh;
+        transition: all .3s;
+
+        &:hover{
+            transform: scale(1.15);;
+        }
     }
 
     .projectHeaderContainer {
@@ -132,7 +137,8 @@ $project-header-primary-color: #1cb0ff;
 
         &:hover {
             position: relative;
-            transform: translateY(-5px);
+            transform: scale(1.1);
+            color: white;
         }
       }
     

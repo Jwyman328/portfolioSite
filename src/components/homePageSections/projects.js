@@ -12,22 +12,16 @@ function Projects(props) {
   return (
     <div className="projectsContainerOuter">
       <h1 className="homePageProjectsTitle">Projects</h1>
-
       <div className="projectsContainer">
         <ProjectElement
-          src={meditationPhoto}
-          routeName="MeditationApp"
-          appName="View Meditation Mobile App"
+          src={universidadDeBastosPhoto}
+          routeName="UniversidadDeBastos"
+          appName="Universidad Bastos"
         />
         <ProjectElement
-          src={cloudNinePhoto}
-          routeName="CloudNineBand"
-          appName="View Cloud Nine Band"
-        />
-        <ProjectElement
-          src={fitnessAppPhoto}
-          routeName="FitnessApp"
-          appName="View Fitness Challenge"
+          src={meditationWebAppPhoto}
+          routeName="MeditationWebApp"
+          appName="View Meditation Web App"
         />
 
         <ProjectElement
@@ -35,22 +29,30 @@ function Projects(props) {
           routeName="NodeFitness"
           appName="View Node Fitness"
         />
+
+        <ProjectElement
+          src={cloudNinePhoto}
+          routeName="CloudNineBand"
+          appName="View Cloud Nine Band"
+        />
       </div>
+
       <div className="projectsContainer">
+        <ProjectElement
+          src={meditationPhoto}
+          routeName="MeditationApp"
+          appName="View Meditation Mobile App"
+        />
+
+        <ProjectElement
+          src={fitnessAppPhoto}
+          routeName="FitnessApp"
+          appName="View Fitness Challenge"
+        />
         <ProjectElement
           src={habitPhoto}
           routeName="HabitApp"
           appName="View Habit App"
-        />
-        <ProjectElement
-          src={meditationWebAppPhoto}
-          routeName="MeditationWebApp"
-          appName="View Meditation Web App"
-        />
-        <ProjectElement
-          src={universidadDeBastosPhoto}
-          routeName="UniversidadDeBastos"
-          appName="Universidad Bastos"
         />
       </div>
     </div>

@@ -12,7 +12,7 @@ function ProjectHeaderCloseable(props) {
   };
 
   return (
-    <div className="closeableProjectHeaderContainer">
+    <div onMouseLeave={() => setOpen(false)}  className="closeableProjectHeaderContainer">
       {open ? (
         <CloseableProjectHeaderElement name="Home" goToLocation="/" />
       ) : null}
@@ -57,7 +57,7 @@ function ProjectHeaderCloseable(props) {
       ) : null}
 
 
-      <div onClick={OpenMenu} className="projectMenuIcon ">
+      <div  onMouseEnter={() => setOpen(true)}  onClick={OpenMenu} className="projectMenuIcon ">
         <img src={MenuIcon} />
       </div>
     </div>
